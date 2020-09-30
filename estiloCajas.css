@@ -1,0 +1,56 @@
+body{
+
+    background-color: rgb(196, 189, 189);
+}
+
+.caja {
+
+    background-color: white;
+    width:250px;
+    height:50px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;  
+    border-left-width:3px;  
+    border-style:solid;
+    text-align: center;
+    line-height: 50px;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+}
+
+.caja1{
+    border-left-color: red;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.5);
+   
+}
+
+.caja2{
+
+    border-left-color: green;
+    
+}
+
+.caja3{
+
+    border-left-color: blue;
+    
+}
+
+.caja1:hover{
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+
+}
+
+.caja2:hover{
+
+    transform: scale(1.05,1.05);
+    cursor: pointer;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.8)
+}
+
+
+.caja3:hover{
+    background-color: rgb(223, 221, 221);
+    cursor: pointer;
+}
